@@ -34,3 +34,37 @@ import redux from "./tech/redux.png";
 import blackangles from "./company/blackangles.png";
 import ncs from "./company/NCS.png";
 import ygp from "./company/ygp.png";
+
+export {
+  close,
+  facebook,
+  github,
+  github3d,
+  instagram,
+  leetcode,
+  linkedin,
+  logo,
+  menu,
+  mine,
+  project1,
+  bootstrap,
+  cpp,
+  css,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nextjs,
+  nodejs,
+  python,
+  reactjs,
+  redux,
+  sass,
+  tailwind,
+  threejs,
+  redux,
+  blackangles,
+  ncs,
+  ygp,
+};
