@@ -44,10 +44,10 @@ const navLinks = [
     id: "project",
     title: "Project",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  // },
 ];
 
 const technologies = [

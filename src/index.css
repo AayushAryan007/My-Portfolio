@@ -112,6 +112,19 @@
     rgba(129, 128, 210, 0.35) 100%
   );
 }
+.nav-box-gradient {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2b4504,
+    #050d42
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2b4504,
+    #050d42
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 .skills-circle-gradient {
   fill: linear-gradient(
@@ -121,6 +134,31 @@
     rgba(3, 14, 14, 0.63) 59.9%,
     #03019c 100%
   );
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #a0c72b 0%,
+    #7e7fce 31%,
+    #28d3e9 100%
+  );
+
+  padding: 2px 6px;
+  text-align: center;
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 @keyframes mulShdSpin {

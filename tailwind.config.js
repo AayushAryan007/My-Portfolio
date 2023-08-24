@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#020106",
+        "prime-green": "#A7D129",
         // "regal-blue": "#243c5a",
         // secondary: "#aaa6c3",
         // tertiary: "#151030",
@@ -18,7 +19,13 @@ module.exports = {
       },
       screens: {
         xs: "450px",
+        sm: "696px",
+        // => @media (min-width: 576px) { ... }
+
+        // md: "768px",
+        // => @media (min-width: 768px) { ... }
       },
+
       backgroundImage: {
         // https://csstailwind.com/3-ways-to-add-background-image-in-tailwindcss/#:~:text=You%20can%20add%20a%20custom,that%20adds%20a%20background%20image.
         //to add custom background image
