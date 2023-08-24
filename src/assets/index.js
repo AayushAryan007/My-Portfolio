@@ -6,7 +6,7 @@ import github3d from "./github3D.png";
 import instagram from "./instagram.png";
 import leetcode from "./leetcode.png";
 import linkedin from "./linkedin.png";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import menu from "./menu.svg";
 import mine from "./Mine.png";
 import project1 from "./project1.png";
@@ -28,7 +28,6 @@ import redux from "./tech/redux.png";
 import sass from "./tech/sass.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
-import redux from "./tech/redux.png";
 
 // company imports
 import blackangles from "./company/blackangles.png";
@@ -63,7 +62,6 @@ export {
   sass,
   tailwind,
   threejs,
-  redux,
   blackangles,
   ncs,
   ygp,
