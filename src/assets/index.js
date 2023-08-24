@@ -31,3 +31,6 @@ import threejs from "./tech/threejs.png";
 import redux from "./tech/redux.png";
 
 // company imports
+import blackangles from "./company/blackangles.png";
+import ncs from "./company/NCS.png";
+import ygp from "./company/ygp.png";
