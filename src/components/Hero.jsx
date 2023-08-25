@@ -9,7 +9,7 @@ const Hero = () => {
     <section className={`w-full flex items-center relative h-screen mx-auto`}>
       <div
         className={`w-full sm:flex-row
-        flex-col justify-between items-center max-w-7xl mx-auto absolute     flex    gap-5`}
+        flex-col justify-between items-center max-w-7xl mx-auto absolute  top-[96px] xl:top-[134px]   flex    gap-5`}
       >
         <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="">
           <div className="">
@@ -32,8 +32,11 @@ const Hero = () => {
             </div>
           </div>
         </motion.div>
-        <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="">
-          <div>ag</div>
+        <motion.div
+          variants={slideIn("right", "tween", 0.2, 1)}
+          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        >
+          <GreenBall />
         </motion.div>
       </div>
     </section>
