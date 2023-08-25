@@ -4,10 +4,29 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Ball = () => {
-  const ball = useGLTF("./Green_Ball/scene.gltf");
+const Ball = ({ isMobile }) => {
+  const ball = useGLTF("./public/Green_Ball/scene.gltf");
   return (
-    <primitive object={ball.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <mesh>
+      <hemisphereLight intensity={2.15} groundColor="black" />
+      <pointLight intensity={3181} />
+      <spotLight
+        position={[220, 50, 10]}
+        angle={0.1}
+        penumbra={1}
+        intensity={11121}
+        castShadow
+        shadow-mapSize={1024}
+      />
+
+      <primitive
+        object={ball.scene}
+        scale={isMobile ? 0.7 : 0.22}
+        position={isMobile ? [0, -3, -2.2] : [0, 0, 0]}
+        rotation={[-1.01, -2.2, -2.1]}
+      />
+    </mesh>
+    // <primitive object={ball.scene} scale={2.5} position-y={0} rotation-y={0} />
   );
 };
 

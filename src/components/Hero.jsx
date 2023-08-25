@@ -6,7 +6,9 @@ import { slideIn } from "../utils/motion";
 import { github, linkedin } from "../assets";
 const Hero = () => {
   return (
-    <section className={`w-full flex items-center relative h-screen mx-auto`}>
+    <section
+      className={`w-full flex items-center relative h-screen mx-auto mt-[-127px]`}
+    >
       <div
         className={`w-full sm:flex-row
         flex-col justify-between items-center max-w-7xl mx-auto absolute  top-[96px] xl:top-[134px]   flex    gap-5`}
