@@ -9,9 +9,9 @@ const styles = {
     "mt-5 text-[#ffffff] font-semibold lg:text-[38px] sm:text-[30px] xs:text-[25px] text-[19px] lg:leading-[40px]",
 
   sectionHeadText:
-    "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
+    "mainHead-gradient text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
-    "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+    "subHead-gradient sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
 };
 
 export { styles };

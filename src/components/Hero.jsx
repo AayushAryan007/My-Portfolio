@@ -7,7 +7,7 @@ import { github, linkedin } from "../assets";
 const Hero = () => {
   return (
     <section
-      className={`w-full flex items-center relative h-screen mx-auto mt-[-127px]`}
+      className={`w-full flex items-center relative h-screen mx-auto mt-[-150px]`}
     >
       <div
         className={`w-full sm:flex-row
@@ -25,10 +25,10 @@ const Hero = () => {
               <div className="rounded-lg py-1 px-2 border-2 mx-1">
                 <a href="/">Resume</a>
               </div>
-              <div className=" mx-1">
+              <div className=" mx-1 cursor-pointer">
                 <img src={linkedin} className="h-9 w-9" />
               </div>
-              <div className=" mx-1">
+              <div className="mx-1 cursor-pointer">
                 <img src={github} className="h-9 w-9" />
               </div>
             </div>
@@ -40,6 +40,23 @@ const Hero = () => {
         >
           <GreenBall />
         </motion.div>
+      </div>
+      <div className="  absolute  xs:bottom-[-50px] bottom-32 w-full flex justify-center items-center">
+        <a href="#about">
+          <div className="  w-[28px] h-[48px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <motion.dev
+              animate={{
+                y: [0, 22, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className="w-2 h-1 rounded-full bg-prime-green mb-1"
+            />
+          </div>
+        </a>
       </div>
     </section>
   );

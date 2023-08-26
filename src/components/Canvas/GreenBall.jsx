@@ -5,11 +5,11 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Ball = ({ isMobile }) => {
-  const ball = useGLTF("./public/Green_Ball/scene.gltf");
+  const ball = useGLTF("/Green_Ball/scene.gltf");
   return (
     <mesh>
       <hemisphereLight intensity={2.15} groundColor="black" />
-      <pointLight intensity={3181} />
+      <pointLight intensity={1181} />
       <spotLight
         position={[220, 50, 10]}
         angle={0.1}
