@@ -7,11 +7,11 @@ import { github, linkedin } from "../assets";
 const Hero = () => {
   return (
     <section
-      className={` w-full flex items-center relative h-screen mx-auto mt-[-150px]`}
+      className={` w-full flex items-center relative h-screen mx-auto mt-[-150px] `}
     >
       <div
         className={`w-full h-full sm:flex-row
-        flex-col justify-between items-center max-w-7xl mx-auto absolute top-[70px] xl:top-[100px]   flex    gap-5`}
+        flex-col justify-between items-center max-w-7xl mx-auto absolute top-[170px] xl:top-[100px]  flex    gap-5`}
       >
         <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="">
           <div className="">
@@ -41,7 +41,7 @@ const Hero = () => {
           <GreenBall />
         </motion.div>
       </div>
-      <div className="  absolute  xs:bottom-[-50px] bottom-32 w-full flex justify-center items-center">
+      <div className="  absolute  xs:bottom-[-22px] bottom-2 w-full flex justify-center items-center">
         <a href="#about">
           <div className="  w-[28px] h-[48px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.dev
