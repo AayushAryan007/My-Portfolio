@@ -14,8 +14,15 @@ import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    style={{ backgroundColor: "timeline-box-fill-gradient" }}
-    contentStyle={{ background: "#616F39", color: "#fff" }}
+    contentStyle={{
+      background:
+        "linear-gradient(226deg, rgba(167, 209, 41, 0.47) 0%, rgba(50, 166, 173, 0.37) 48.44%, rgba(129, 128, 210, 0.35) 100%)",
+      color: "#fff",
+      border: "2px solid transparent", // Set a transparent border initially
+      borderImage:
+        "linear-gradient(226deg, #a7d129 0%, #32a6ad 48.44%, #8180d2 100%) 1", // Apply gradient as border image
+    }}
+    // contentStyle={{  }}
     contentArrowStyle={{ borderRight: "12px solid #616F39" }}
     date={experience.date}
     iconStyle={{ background: "#020106" }}

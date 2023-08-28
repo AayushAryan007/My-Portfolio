@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      <div className="w-full flex justify-between items-center max-w-6xl mx-auto">
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -26,7 +26,7 @@ const Navbar = () => {
             Aayush &nbsp;<span className="sm:block hidden">Aryan</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden md:flex flex-row gap-10">
           {navLinks.map((Link) => (
             <li
               key={Link.id}
@@ -51,7 +51,7 @@ const Navbar = () => {
         </ul>
 
         {/* mobile navigation */}
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="md:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             // change the svgs
