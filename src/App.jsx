@@ -5,8 +5,8 @@ import {
   Contact,
   Experience,
   Navbar,
-  Projects,
   Skills,
+  Projects,
 } from "./components";
 
 const App = () => {
@@ -21,6 +21,7 @@ const App = () => {
           <About />
           <Experience />
           <Skills />
+          <Projects />
           <Contact />
         </div>
 

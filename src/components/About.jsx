@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <div
-        className={` md:flex-row flex-col flex justify-between   w-screen sm:h-[200vh] md:h-[100vh] overflow-hidden  ml-[-30px]`}
+        className={` md:flex-row flex-col flex justify-between   w-screen sm:h-[200vh] md:h-[100vh]  overflow-hidden  ml-[-30px]`}
       >
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
@@ -64,13 +64,13 @@ const About = () => {
         </motion.div>
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className="xl:flex-1  xl:h-auto  sm:h-auto mr-[-40px] xL:mr-[-40px]"
+          className="xl:flex-1  xl:h-auto  sm:h-auto mr-[-40px] xL:mr-[-40px] "
         >
           <img src={image} alt="image" c />
         </motion.div>
       </div>
 
-      <div className="bar-gradient relative w-6/7 h-4 bg-green-500"></div>
+      <div className="bar-gradient relative w-6/7 h-4  bg-green-500"></div>
     </>
   );
 };

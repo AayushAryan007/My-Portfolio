@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { GreenBall } from "./canvas";
+import { GreenBall } from "./Canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { github, linkedin } from "../assets";

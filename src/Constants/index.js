@@ -171,6 +171,28 @@ const experiences = [
     ],
   },
 ];
+const roles = [
+  {
+    title: "Full Stack Developer",
+    stack: "MongoDB, Express.js, React.js, Node.js",
+
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    stack: "MongoDB, Express.js, React.js, Node.js",
+
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+];
 
 const projects = [
   {
@@ -238,4 +260,4 @@ const projects = [
   },
 ];
 
-export { navLinks, technologies, experiences, projects };
+export { roles, navLinks, technologies, experiences, projects };
