@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: "#020106",
         "prime-green": "#A7D129",
+        "p-text": "#FFFFFF",
         // "regal-blue": "#243c5a",
         // secondary: "#aaa6c3",
         // tertiary: "#151030",

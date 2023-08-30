@@ -72,7 +72,7 @@ const technologies = [
     icon: nextjs,
   },
   {
-    name: "Tailwind CSS",
+    name: "Tailwind",
     icon: tailwind,
   },
   {
@@ -84,7 +84,7 @@ const technologies = [
     icon: python,
   },
   {
-    name: "Sass CSS",
+    name: "Sass",
     icon: sass,
   },
   {
@@ -108,7 +108,7 @@ const technologies = [
     icon: git,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {

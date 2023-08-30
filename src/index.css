@@ -115,6 +115,7 @@ body {
     rgba(129, 128, 210, 0.35) 100%
   );
 }
+
 .nav-box-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
