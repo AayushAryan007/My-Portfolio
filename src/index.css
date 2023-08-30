@@ -63,8 +63,8 @@ body {
   background: linear-gradient(
     90deg,
     #8180d2 0%,
-    rgba(50, 166, 173, 0.88) 12.24%,
-    #a7d129 40%
+    rgba(50, 166, 173, 0.88) 37.24%,
+    #a7d129 60%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -76,7 +76,7 @@ body {
     91deg,
     #8180d2 0%,
     rgba(34, 160, 191, 0.88) 23.75%,
-    #a7d129 44.79%
+    #a7d129 64.79%
   );
   background-clip: text;
   -webkit-background-clip: text;
