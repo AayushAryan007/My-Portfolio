@@ -158,6 +158,24 @@ body {
   border-radius: 10px;
   display: block;
 }
+.btn-grad2 {
+  background-image: linear-gradient(
+    to right,
+    #a0c72b 0%,
+    #7e7fce 31%,
+    #28d3e9 100%
+  );
+
+  padding: 7px 15px;
+  text-align: center;
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+
+  border-radius: 10px;
+  display: block;
+}
 
 .btn-grad:hover {
   background-position: right center; /* change the direction of the change here */

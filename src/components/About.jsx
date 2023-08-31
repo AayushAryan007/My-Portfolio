@@ -66,7 +66,7 @@ const About = () => {
           variants={slideIn("right", "tween", 0.2, 1)}
           className="xl:flex-1  xl:h-auto  sm:h-auto mr-[-40px] xL:mr-[-40px] "
         >
-          <img src={image} alt="image" c />
+          <img src={image} alt="image" />
         </motion.div>
       </div>
 
