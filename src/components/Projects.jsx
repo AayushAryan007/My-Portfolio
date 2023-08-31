@@ -26,7 +26,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5  sm:w-[360px] w-full b border-2 "
+        className="bg-tertiary p-5  sm:w-[360px] w-full  border-2 "
         style={{
           background:
             "linear-gradient(226deg, rgba(167, 209, 41, 0.47) 0%, rgba(50, 166, 173, 0.37) 48.44%, rgba(129, 128, 210, 0.35) 100%)",

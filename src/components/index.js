@@ -7,6 +7,7 @@ import Experience from "./Experience";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Skills from "./Skill";
+import CarSection from "./CarSection";
 
 export {
   GreenBall,
@@ -18,4 +19,5 @@ export {
   Navbar,
   Projects,
   Skills,
+  CarSection,
 };
