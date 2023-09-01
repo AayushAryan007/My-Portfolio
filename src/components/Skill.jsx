@@ -128,7 +128,7 @@ const Skill = () => {
                   </li>
                 </ul>
               </div>
-            </Tilt>{" "}
+            </Tilt>
           </motion.div>
         </div>
         <div className="flex-1  mt-12 md:mt-0 md:h-[649px] ">
