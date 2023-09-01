@@ -117,7 +117,6 @@ const Skill = () => {
                     and other related technologies.{" "}
                   </li>
                   <li>
-                    {" "}
                     Collaborating with cross-functional teams including
                     designers, product managers, and other developers to create
                     high-quality products.{" "}
