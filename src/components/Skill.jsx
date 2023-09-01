@@ -112,7 +112,6 @@ const Skill = () => {
                   style={{ margin: 0 }}
                 >
                   <li>
-                    {" "}
                     Developing and maintaining web applications using React.js
                     and other related technologies.{" "}
                   </li>
