@@ -71,6 +71,7 @@ const Skill = () => {
                   className="  list-disc text-secondary   text-[1.8vmin] lg:text-[2.2vmin] pb-4"
                   style={{ margin: 0 }}
                 >
+                  {/* ////// */}
                   <li>
                     Developing and maintaining web applications using React.js
                     and other related technologies.
