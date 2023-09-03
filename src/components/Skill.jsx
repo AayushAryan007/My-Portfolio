@@ -112,7 +112,7 @@ const Skill = () => {
                 >
                   <li>
                     Developing and maintaining web applications using React.js
-                    and other related technologies.{" "}
+                    and other related technologies.
                   </li>
                   <li>
                     Collaborating with cross-functional teams including
