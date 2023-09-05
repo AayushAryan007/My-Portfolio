@@ -25,11 +25,6 @@ module.exports = {
         lg: "1024px",
         xl: "1280px",
         xxl: "1536px",
-
-        // => @media (min-width: 576px) { ... }
-
-        // md: "768px",
-        // => @media (min-width: 768px) { ... }
       },
 
       backgroundImage: {
@@ -47,3 +42,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+//github server down on 05/09/2023
