@@ -128,7 +128,7 @@ const Skill = () => {
             </Tilt>
           </motion.div>
         </div>
-        <div className="flex-1  mt-12 md:mt-0 md:h-[649px] ">
+        <div className="flex-1 mt-12 md:mt-0 md:h-[649px] ">
           <div
             className="h-full timeline-box-fill-gradient flex items-center justify-center border-2 p-7"
             style={{
