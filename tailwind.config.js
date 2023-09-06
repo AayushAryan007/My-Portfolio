@@ -30,6 +30,8 @@ module.exports = {
       backgroundImage: {
         // https://csstailwind.com/3-ways-to-add-background-image-in-tailwindcss/#:~:text=You%20can%20add%20a%20custom,that%20adds%20a%20background%20image.
         //to add custom background image
+
+        //all customs bg
         "whole-pattern": "url('/src/assets/wholeBg.png')",
         "hero-pattern": "url('/src/assets/HeroBg.png')",
         "about-pattern": "url('/src/assets/AboutBg.png')",
