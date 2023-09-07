@@ -23,4 +23,3 @@ const StarWrapper = (Component, idName) =>
   };
 
 export default StarWrapper;
-//adds default wrapping to everything
