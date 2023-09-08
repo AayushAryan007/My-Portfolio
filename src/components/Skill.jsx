@@ -144,6 +144,7 @@ const Skill = () => {
         </div>
       </div>
     </>
+    //empty tag ends
   );
 };
 
