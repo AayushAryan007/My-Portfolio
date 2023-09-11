@@ -20,7 +20,6 @@ const About = () => {
           <h2 className={`${styles.sectionHeadText}`}>About Me.</h2>
           <div>
             <p>
-              {" "}
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam nulla tenetur delectus illo suscipit eius at ipsa cum,
               reprehenderit, esse laudantium aliquid quo doloribus magnam
