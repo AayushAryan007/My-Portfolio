@@ -46,6 +46,7 @@ const About = () => {
               <p className="  font-medium text-[18px]">
                 customers <br /> satisfied
               </p>
+              {/* extra */}
             </div>
             <div className="flex-1/4">
               <p className="numPlus-gradient  font-bold text-[50px]">+120</p>
