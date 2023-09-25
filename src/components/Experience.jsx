@@ -22,7 +22,6 @@ const ExperienceCard = ({ experience }) => (
       borderImage:
         "linear-gradient(226deg, #a7d129 0%, #32a6ad 48.44%, #8180d2 100%) 1", // Apply gradient as border image
     }}
-    // contentStyle={{  }}
     contentArrowStyle={{ borderRight: "12px solid #616F39" }}
     date={experience.date}
     iconStyle={{ background: "#020106" }}
