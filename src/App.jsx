@@ -8,6 +8,7 @@ import {
   Skills,
   Projects,
   CarSection,
+  Starbg,
 } from "./components";
 
 const App = () => {
@@ -15,8 +16,12 @@ const App = () => {
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         {/* <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center"> */}
-        <div className="bg-whole-pattern  bg-inherit  bg-no-repeat bg-center">
+        <div
+          className="bg-inherit bg-no-repeat bg-center"
+          style={{ width: "100%", minHeight: "100vh" }}
+        >
           {" "}
+          <Starbg />
           <Navbar />
           <Hero />
           <About />
@@ -26,10 +31,10 @@ const App = () => {
           <CarSection />
           <Contact />
         </div>
-
         {/* <div className="relative z-0"></div> */}
       </div>
     </BrowserRouter>
   );
 };
+
 export default App;

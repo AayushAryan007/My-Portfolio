@@ -146,7 +146,7 @@ const Contact = () => {
       >
         <div>
           <img className="h-[720px]" src={image} alt="image" />
-          <div
+          {/* <div
             className="border-2 w-full"
             style={{
               background:
@@ -170,7 +170,7 @@ const Contact = () => {
                 />
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
       </motion.div>
     </div>

@@ -8,7 +8,7 @@ import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Skills from "./Skill";
 import CarSection from "./CarSection";
-
+import Starbg from "./starbg";
 export {
   GreenBall,
   GreenCar,
@@ -20,4 +20,5 @@ export {
   Projects,
   Skills,
   CarSection,
+  Starbg,
 };
