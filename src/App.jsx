@@ -8,7 +8,7 @@ import {
   Skills,
   Projects,
   CarSection,
-  Starbg,
+  // Starbg,
 } from "./components";
 
 const App = () => {
@@ -21,7 +21,7 @@ const App = () => {
           style={{ width: "100%", minHeight: "100vh" }}
         >
           {" "}
-          <Starbg />
+          {/* <Starbg /> */}
           <Navbar />
           <Hero />
           <About />
